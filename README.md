@@ -2,7 +2,7 @@
 Convert photographed objects to transcluent images automaticly. You need multiple Photos with different backgrounds.
 
 The script bw_to_rgba.py converts two images to a new transcluent image.
-It interprets the input-images as if they are made with a black and a white image.
+It interprets the input-images as if they are made with a black and a white background.
 
 ```
    black     white
