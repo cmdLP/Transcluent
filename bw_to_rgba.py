@@ -57,7 +57,7 @@ if __name__ == "__main__":
         argv += ["test-images/"+num+"-black.png", "test-images/"+num+"-white.png", "test-images/"+num+"-rgb.png"]
     elif argv != 4:
         print(
-            "USAGE: black_white_to_rgba.py <black-image> <white-image> <output-image>\n"
+            "USAGE: nw_to_rgba.py <black-image> <white-image> <output-image>\n"
             "\n"
             "It converts two images with black and white background to an rgba-image"
         )
@@ -68,8 +68,8 @@ if __name__ == "__main__":
     white_file_name  = argv[2]
     output_file_name = argv[3]
 
-    black_img  = Image.open(black_file_name).convert("RGB")
-    white_img  = Image.open(white_file_name).convert("RGB")
+    black_img  = Image.open(black_file_name)
+    white_img  = Image.open(white_file_name)
 
     result_img = bw_to_rgba(black_img, white_img)
     
