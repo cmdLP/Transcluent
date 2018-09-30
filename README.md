@@ -12,6 +12,6 @@ It interprets the input-images as if they are made with a black and a white imag
     bw_to_rgba.py
           ||
           \/
-      transcluent
+     transcluent
         [RGBA]
 ```
