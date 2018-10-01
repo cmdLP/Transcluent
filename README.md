@@ -19,4 +19,4 @@ It interprets the input-images as if they are made with a black and a white back
 ```
 
 
-![black background](test-images/1-black.png "black background") + ![white background](test-images/1-white.png "black background") -> ![transparent](test-images/1-transparent.png "transparent")
+![example image](doc/bw_to_rgba.png "example image")
