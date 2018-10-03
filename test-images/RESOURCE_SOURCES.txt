@@ -1,0 +1,3 @@
+The wine_glass-images are based on https://commons.wikimedia.org/wiki/File:Wine_Glass_(White).svg -- a work by "Will Murray (Willscrlt)" -> http://willmurraymedia.com
+
+All other images in this directory are made by cmdLP.
