@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
     if len(argv) == 1:
         num = "1"
-        argv += ["test-images/"+num+"-black.png", "test-images/"+num+"-white.png", "test-images/"+num+"-rgb.png"]
+        argv += ["test-images/"+num+"-black.png", "test-images/"+num+"-white.png", "test-images/"+num+"-rgba.png"]
     elif len(argv) != 4:
         print(
             "USAGE: bw_to_rgba.py <black-image> <white-image> <output-image>\n"
